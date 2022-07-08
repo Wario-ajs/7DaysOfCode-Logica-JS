@@ -25,4 +25,20 @@ if ( numeroUm === stringUm) {
     console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
   }
 
-  
+//Challenge Day Two Variables
+
+let nome = prompt("Qual o seu nome?");
+let idade = prompt("quantos anos você tem?");
+let linguagemDeProgramação = prompt("Qual linguagem de programação você está estudando?");
+
+alert("Olá " + nome + ", você tem " + idade + " anos e já está aprendendo " + linguagemDeProgramação + "!")
+
+// Day Two Extra
+
+let perguntaGosta = prompt("Você gosta de estudar " + linguagemDeProgramação + "? Responda com o número 1 para SIM ou 2 para NÃO.");
+
+if (perguntaGosta === 1) {
+    alert("Muito bom! Continue estudando e você terá muito sucesso.");
+}else{
+    alert("Ahh que pena... Já tentou aprender outras linguagens?");
+}
